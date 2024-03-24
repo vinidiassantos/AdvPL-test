@@ -1,0 +1,44 @@
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±training AdvPL ±± Data 02/12/2023
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±Basic estructure
+±±ADVPL.
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±Uso ±± HELPFACIL
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+
+*/
+
+ 
+
+//Nome da Funcao.
+//Essa e uma funcao de usuario.
+User Function vinidiassantos()
+
+ 
+
+//Declaracao das Variaveis
+//O nome das variaveis seguem o padrao do prefixo de acordo com o tipo.
+
+Local cNome
+Local dData
+Local nArtigo
+
+//Atribuicao de valores nas variaveis.
+
+cNome := "Primeiro Programa! - "
+dData := DDataBase // DDataBase retorna a data corrente.
+
+ 
+
+//Exibe uma caixa de dialogo mostrando os valores das variaveis.
+
+//O comando DtoC converte o Tipo Data para Caracter, para poder ser exibido como texto na caixa de dialogo.
+
+Alert(cNome+DtoC(dData))
+
+ 
+
+//Finaliza o programa.
+
+Return()
