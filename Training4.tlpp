@@ -1,0 +1,26 @@
+    #include    "Protheus.ch"
+    #include    "totvs.ch"
+
+    User Function training4()
+    /*
+    SE
+        DIA ENSOLARADO
+            OU
+                CASA COM PISCINA
+
+    lcalor       := .T. true/verdadeiro
+    lFrio        := .F. false/falso
+    */
+
+    local lPraia    := .S.
+    local lPiscina    := .P.
+        //sim       //sim       ==false
+    
+    If  lCalor == .t. .and.   lChuva == .f.
+        MsgInfo("HOJE IREMOS A PRAIA", RESULT")
+    ELSE
+        MsgInfo("HOJE FICAREMOS EM CASA", RESULT")
+    ENDIF
+        
+    
+    return

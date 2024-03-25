@@ -1,7 +1,7 @@
     #include    "Protheus.ch"
     #include    "totvs.ch"
 
-    User Function SISTEM5()
+    User Function training3()
     /*
     SE FOR CALOR
     SE FOR FRIO
