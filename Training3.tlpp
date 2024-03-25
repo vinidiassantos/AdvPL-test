@@ -1,0 +1,23 @@
+    #include    "Protheus.ch"
+    #include    "totvs.ch"
+
+    User Function SISTEM5()
+    /*
+    SE FOR CALOR
+    SE FOR FRIO
+    
+    calor       := .T. true/verdadeiro
+    Frio        := .F. false/falso
+    */
+
+    local lCalor    := .T.
+    local lChuva    := .F.
+    
+    If  lCalor == .t. .and.   lChuva == .f.
+        MsgInfo("HOJE ESTÁ CALOR", RESULT")
+    ELSE
+        MsgInfo("HOJE ESTÁ FRIO", RESULT")
+    ENDIF
+        
+    
+    return

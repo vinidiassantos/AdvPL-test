@@ -1,0 +1,35 @@
+    #include    "Protheus.ch"
+    #include    "totvs.ch"
+
+    User /*/{Protheus.doc} nomeFunction
+        Operadores aritméticos - + * /
+        (long_description)
+        @type  Function
+        @author user
+        @since date
+        @version version
+        @param param, param_type, param_descr
+        @return return, return_type, return_description
+        /*/
+        User Function Sistem(2)
+        //Declaração
+        
+        Local nNum1     := 30
+        Local nNum2     := 10
+
+        If nNum1 > nNum2
+            MsgInfo(cValToChar(nNum1+"é maior que "+cValToChar(nNum2)), "RESULT")
+        ELSEIF nNum1 < nNum2
+            MsgInfo(cValToChar(nNum1)+"é Menor (<) que "+cValToChar(nNum2), "RESULT")
+        ELSE
+            MsgInfo(cValToChar(nNum1)+"é iGUAL (=) que "+cValToChar(nNum2), "RESULT")   
+        
+
+        MsgInfo(cValToChar(nSub),"SUBTRACAO 10 - 20 ")
+        MsgInfo(cValToChar(nmULT),"MULTIPLICACAO 10 * 20 ")
+        MsgInfo(cValToChar(nSub),"DIVISAO 10/20 ")
+        MsgInfo(cValToChar(nSub),"ADICAO 10+20 ")
+
+        return
+        
+

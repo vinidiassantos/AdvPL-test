@@ -16,6 +16,11 @@
         Local nNum1     := 10
         Local nNum2     := 20
 
-        user Function TRAINING1()
-        MsgInfo("Olá mundo",Saudacoes)
+        MsgInfo(cValToChar(nSub),"SUBTRACAO 10 - 20 ")
+        MsgInfo(cValToChar(nmULT),"MULTIPLICACAO 10 * 20 ")
+        MsgInfo(cValToChar(nSub),"DIVISAO 10/20 ")
+        MsgInfo(cValToChar(nSub),"ADICAO 10+20 ")
+
+        return
+        
 
