@@ -2,6 +2,7 @@
     #include    "totvs.ch"
 
     User /*/{Protheus.doc} nomeFunction
+        Operadores aritméticos - + * /
         (long_description)
         @type  Function
         @author user
@@ -9,13 +10,12 @@
         @version version
         @param param, param_type, param_descr
         @return return, return_type, return_description
-        @example
-        (examples)
-        @see (links_or_references)
         /*/
-     Function nomeFunction
-    Return return
+        User Function Sistem(2)
+        //Declaração
+        Local nNum1     := 10
+        Local nNum2     := 20
 
-    user Function TRAINING1()
-    MsgInfo("Olá mundo",Saudacoes)
-    
+        user Function TRAINING1()
+        MsgInfo("Olá mundo",Saudacoes)
+
