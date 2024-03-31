@@ -35,7 +35,7 @@ dData := DDataBase // DDataBase retorna a data corrente.
 
 //O comando DtoC converte o Tipo Data para Caracter, para poder ser exibido como texto na caixa de dialogo.
 
-Alert(cNome+DtoC(dData))
+Alert(cNome+DtoC(dData)).
 
  
 
