@@ -12,12 +12,12 @@
  
 
 //Nome da Funcao.
-//Essa e uma funcao de usuario.
+//Essa e uma funcao de usuario
 User Function vinidiassantos()
 
  
 
-//Declaracao das Variaveis
+//Declaracao de Variaveis
 //O nome das variaveis seguem o padrao do prefixo de acordo com o tipo.
 
 Local cNome
