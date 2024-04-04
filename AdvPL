@@ -24,7 +24,7 @@ Local cNome
 Local dData
 Local nArtigo
 
-//Atribuicao de valores nas variaveis.
+//Atribuicao de valores nas variaveis
 
 cNome := "Primeiro Programa! - "
 dData := DDataBase // DDataBase retorna a data corrente.
