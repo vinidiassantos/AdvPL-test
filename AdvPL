@@ -23,7 +23,6 @@ User Function vinidiassantos()
 Local cNome
 Local dData
 Local nArtigo
-Local nNumber
 
 //Atribuicao de valores nas variaveis.
 
