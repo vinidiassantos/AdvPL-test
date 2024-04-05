@@ -23,8 +23,9 @@ User Function vinidiassantos()
 Local cNome
 Local dData
 Local nArtigo
+Local nNumber
 
-//Atribuicao de valores nas variaveis
+//Atribuicao de valores nas variaveis.
 
 cNome := "Primeiro Programa! - "
 dData := DDataBase // DDataBase retorna a data corrente.
