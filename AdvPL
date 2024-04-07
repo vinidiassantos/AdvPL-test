@@ -13,7 +13,6 @@
 
 //Nome da Funcao.
 //Essa e uma funcao de usuario.
-//Essa e uma funcao de usuario.
 
 User Function vinidiassantos()
 
@@ -25,6 +24,7 @@ User Function vinidiassantos()
 Local cNome
 Local dData
 Local nArtigo
+Local nMonth
 
 //Atribuicao de valores nas variaveis.
 
@@ -34,6 +34,7 @@ dData := DDataBase // DDataBase retorna a data corrente.
  
 
 //Exibe uma caixa de dialogo mostrando os valores das variaveis.
+//Exibe um campo de valores das variaveis.
 
 //O comando DtoC converte o Tipo Data para Caracter, para poder ser exibido como texto na caixa de dialogo.
 
